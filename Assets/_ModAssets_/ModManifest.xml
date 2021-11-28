@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModManifest buildID="fc408948-6de5-4f72-bd6b-8741308f42c9">
+  <Mod name="Flooded Rail" author="hpgbproductions" versionMajor="1" versionMinor="0" loadPriority="1000" lastUpdated="2021-11-28T10:49:01.1211196Z" apiVersion="1.0.0.0" description="">
+    <Steam title="" visibility="Public" previewPath="" language="English" tags="">
+      <description></description>
+    </Steam>
+    <GameObjects>
+      <GameObject name="Flooded Rail" path="Assets/_ModAssets_/Flooded Rail.prefab" />
+    </GameObjects>
+    <Assets>
+      <Asset path="Assets/Supply/platform.mat" />
+      <Asset path="Assets/Supply/rail.mat" />
+      <Asset path="Assets/Supply/rail-physics.physicMaterial" />
+      <Asset path="Assets/Supply/rail-platform/shimonada.obj" />
+      <Asset path="Assets/Supply/rail-profile_model/rail-profile_export.obj" />
+      <Asset path="Assets/Supply/water.mat" />
+      <Asset path="Assets/Supply/wood.mat" />
+    </Assets>
+    <MaterialShaderMap>
+      <Material name="platform" shader="Standard" />
+      <Material name="rail" shader="Standard" />
+      <Material name="water" shader="Standard" />
+      <Material name="wood" shader="Standard" />
+    </MaterialShaderMap>
+    <Assemblies>
+      <Assembly name="FloodedRail-Assembly-CSharp.dll" path="Assets/_ModAssets_/FloodedRail-Assembly-CSharp.dll.bytes" isProjectAssembly="true" />
+    </Assemblies>
+    <Sections>
+      <SimplePlanesMod apiVersion="1.0.0.0">
+        <Maps>
+          <Map name="Flooded Rail" description="" path="Assets/_ModAssets_/Flooded Rail.prefab" allowSandbox="true" />
+        </Maps>
+        <Levels />
+        <Parts />
+        <DesignerPlugins />
+        <MapPlugins />
+        <PersistentObjects />
+      </SimplePlanesMod>
+    </Sections>
+  </Mod>
+</ModManifest>
